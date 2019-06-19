@@ -1,0 +1,9 @@
+language: java
+jdk: openjdk11
+cache:
+  directories: $HOME/.m2
+notifications:
+  email:
+    recipients: scottkelso@hotmail.com
+    on_failure: always
+    on_success: never
